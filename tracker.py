@@ -53,12 +53,12 @@ def on_press(key):
         activity=current_activity,
         key=str(key),
     )
-    if key == keyboard.Key.esc:  # esc to stop the listener
+    if key == keyboard.Key.pause:  # esc to stop the listener
         return False
 
 
 def on_release(key):
-    if key == keyboard.Key.esc:  # esc to stop the listener
+    if key == keyboard.Key.pause:  # esc to stop the listener
         return False
 
 

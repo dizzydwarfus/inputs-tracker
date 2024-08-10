@@ -1,6 +1,6 @@
 *.log
 utils/__pycache__
-_pycache_
+__pycache__/
 .DS_Store
 venv
 venv312
