@@ -1,0 +1,9 @@
+*.log
+utils/__pycache__
+_pycache_
+.DS_Store
+venv
+venv312
+venv311
+
+*.json
