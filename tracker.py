@@ -77,19 +77,4 @@ def start_listener():
 
 
 if __name__ == "__main__":
-    activity_list = {
-        "1": "general",
-        "2": "programming",
-        "3": "valorant",
-        "4": "gaming",
-        "5": "web_browsing",
-        "6": "movie",
-    }
-    while True:
-        print("Choose an activity:")
-        for key, value in activity_list.items():
-            print(f"Type '{key}' for '{value}'")
-
-        choice = input("Enter the activity number: ")
-        set_activity(activity_list.get(choice, "general"))
-        start_listener()
+    print("Do not run this script directly. Run the GUI instead. 'python app.py'")
