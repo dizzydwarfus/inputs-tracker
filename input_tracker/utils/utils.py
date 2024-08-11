@@ -2,7 +2,7 @@ import time
 import json
 import os
 
-from utils._logger import MyLogger
+from input_tracker.utils._logger import MyLogger
 
 file_name = os.path.basename(__file__)
 logger = MyLogger(name=file_name, level="debug").logger

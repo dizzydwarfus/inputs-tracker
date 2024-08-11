@@ -6,14 +6,14 @@ import os
 from pathlib import Path
 
 # Internal imports
-from utils._logger import MyLogger
-from utils.utils import log_event, create_log_file
+from input_tracker.utils._logger import MyLogger
+from input_tracker.utils.utils import log_event, create_log_file
 
 file_name = os.path.basename(__file__)
 
 logger = MyLogger(name=file_name, level="debug").logger
 
-root_dir = Path(__file__).resolve().parent
+root_dir = Path(__file__).resolve().parent.parent
 mouse_events_file = root_dir / "data" / "mouse_events.json"
 keyboard_events_file = root_dir / "data" / "keyboard_events.json"
 

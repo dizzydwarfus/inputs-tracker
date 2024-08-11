@@ -1,7 +1,7 @@
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import TOP, DANGER, SUCCESS, LEFT, BOTH, YES
-from utils._globals import CATEGORIES
-from tracker import start_listener, set_activity
+from input_tracker.utils._globals import CATEGORIES
+from input_tracker.tracker import start_listener, set_activity
 
 
 class App(ttk.Window):
