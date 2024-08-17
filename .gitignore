@@ -7,3 +7,4 @@ venv312
 venv311
 
 *.json
+*.db

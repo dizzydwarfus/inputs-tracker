@@ -47,6 +47,10 @@ Key Press Tracker is a Python application designed to log mouse clicks and keybo
 3. **Start tracking:**
    - Click the "Run" button to begin logging mouse and keyboard events.
    - Click the "Exit" button to stop the application.
+
+4. **Stop tracking:**
+   - Keyboard listener: Press "Pause/Break" key to stop the keyboard listener
+   - Mouse listener: Press "middle mouse button" to stop the mouse listener
   
 ## Project Structure
 
